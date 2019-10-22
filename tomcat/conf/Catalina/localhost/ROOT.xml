@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Context
+	        docBase="/opt/tomcat/datamanager-deploy/datamanager.war"
+		        antiResourceLocking="false" privileged="true">
+				
+		<Parameter name="isis.config.dir"
+				   value="/opt/tomcat/datamanager-deploy/properties"
+				   override="false"/>
+				   
+		<Parameter name="shiroConfigLocations"
+           value="file:/opt/tomcat/datamanager-deploy/properties/shiro.ini"
+           override="false" />		   
+				   
+	</Context>		   
